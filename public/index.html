@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Cópia_de__Convite___1_-removebg-preview.png" alt="Nome do Casal" id="couple-name">
+    </header>
+    <h2>Envie suas fotos do casamento!</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="foto">Selecione a foto:</label>
+        <input type="file" id="foto" name="foto" required>
+        <button type="submit">Enviar Foto</button>
+    </form>
+</body>
+</html>
